@@ -43,7 +43,6 @@ const userSchema = new mongoose.Schema(
         salt:           String,
         rollno: {
             type:       Number,
-            default:     0
         },
         year: {                         //suspect
             type:       Number,
