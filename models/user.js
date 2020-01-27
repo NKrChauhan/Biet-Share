@@ -45,8 +45,7 @@ const userSchema = new mongoose.Schema(
             type:       Number,
         },
         year: {                         //suspect
-            type:       Number,
-            default:    date.now().getFullYear()
+            type:       Number
         },
         photo: {
             data:       Buffer,
